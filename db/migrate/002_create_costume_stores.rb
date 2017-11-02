@@ -9,8 +9,6 @@ class CostumeStore < ActiveRecord::Migration
       t.boolean :in_business?
       t.datetime :opening_time
       t.datetime :closing_time
-
-      t.timestamps null: false
     end
   end
 end
