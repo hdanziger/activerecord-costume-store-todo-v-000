@@ -16,3 +16,4 @@ class Costume < ActiveRecord::Migration
       t.string :image_url
     end
   end
+end
